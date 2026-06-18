@@ -1,13 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package bagian1.array;
 
-/**
- *
- * @author Hype
- */
+
 public class SuhuHarian {
     public static void main(String[] args) {
         // 1. Membuat array berisi 6 suhu

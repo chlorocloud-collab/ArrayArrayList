@@ -1,12 +1,6 @@
 
 package bagian1.array;
 
-/*
- * Gunakan for-each bila hanya perlu membaca tiap
- * elemen secara berurutan. Gunakan for biasa bila perlu indeks (misalnya
- * mengubah isi elemen, atau memproses dua array sekaligus).
- *
- */
 
 public class Latihan2 {
     

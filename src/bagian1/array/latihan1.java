@@ -1,4 +1,4 @@
-/*
+/* catatab untuk diri saya sendiri:
  * Apa itu Array?
  * Definisi: Array adalah wadah (variabel) yang bisa menyimpan banyak data sekaligus dalam satu nama variabel.
  * Syarat: Semua data di dalam satu array harus memiliki tipe data yang sama (misalnya: semuanya angka/int atau semuanya teks/String).
@@ -6,7 +6,7 @@
  */
 package bagian1.array;
 
-/* 
+/* catatab untuk diri saya sendiri:
  * Properti .length memberi tahu jumlah elemen array. Indeks valid adalah
  * 0 sampai length-1. Mengakses nilai[5] pada array berukuran 5 akan
  * menimbulkan error ArrayIndexOutOfBoundsException.
