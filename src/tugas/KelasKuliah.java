@@ -1,13 +1,38 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package tugas;
+import java.util.ArrayList;
 
-/**
- *
- * @author Hype
- */
 public class KelasKuliah {
+    private ArrayList<Mahasiswa> daftarMahasiswa = new ArrayList<>();
+
+    public void tambahMahasiswa(Mahasiswa m) {
+        daftarMahasiswa.add(m);
+    }
+
+    public double hitungRataRata() {
+        if (daftarMahasiswa.isEmpty()) return 0;
+        double total = 0;
+        for (Mahasiswa m : daftarMahasiswa) {
+            total += m.getNilai();
+        }
+        return total / daftarMahasiswa.size();
+    }
+
+    public int jumlahLulus() {
+        int count = 0;
+        for (Mahasiswa m : daftarMahasiswa) {
+            if (m.lulus()) count++;
+        }
+        return count;
+    }
+
+    public void tampilkanSemua() {
+        System.out.println("Daftar Mahasiswa:");
+        for (Mahasiswa m : daftarMahasiswa) {
+            System.out.println("- " + m.getNama() + " (" + m.getNpm() + ") | Nilai: " + m.getNilai());
+        }
+    }
     
+    public int getJumlahMahasiswa() {
+        return daftarMahasiswa.size();
+    }
 }
